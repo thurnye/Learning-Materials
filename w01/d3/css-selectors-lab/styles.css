@@ -1,0 +1,57 @@
+/* Move your styles here when you're ready to clean up your HTML file */
+/* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+/* Here's my changes */
+
+body{
+    font-size: 15px;
+}
+
+header{
+    border-bottom:2px solid black;
+}
+h1{
+    font-family:'Baskerville'; 
+}
+h2{
+    font-family: "verdana"
+}
+.class-list{
+    list-style-type: square;
+}
+.item{
+    border: 5px;
+}
+.even{
+    background-color: grey;
+}
+.odd{
+    background-color: black;
+    color: white;
+}
+
+#item1{
+    font-size: 30px;
+    
+}
+#item2{
+    text-align: right;
+
+}
+
+ol li{
+    padding: 10px 0;
+
+}
+
+ol li:nth-child(odd) {
+    background-color: green;
+  } 
+
+ul li a:hover{
+    background-color: yellow;
+    text-decoration: none;
+}
+ul li a:active{
+    background-color: red;
+}
+
